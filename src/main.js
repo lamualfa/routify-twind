@@ -1,4 +1,8 @@
-import './tailwind.config';
+import { setup } from 'twind';
+import tailwindConfig from '../tailwind.config';
+
+setup(tailwindConfig);
+
 import HMR from '@roxi/routify/hmr';
 import App from './App.svelte';
 

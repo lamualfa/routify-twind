@@ -1,6 +1,4 @@
-import { setup } from 'twind';
-
-setup({
+module.exports = {
   theme: {
     extend: {
       textColor: {
@@ -8,4 +6,4 @@ setup({
       },
     },
   },
-});
+};
