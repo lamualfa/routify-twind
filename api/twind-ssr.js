@@ -1,9 +1,9 @@
 const { setup } = require('twind');
-const { virtualSheet, getStyleTag } = require('twind/server');
+const { asyncVirtualSheet, getStyleTag } = require('twind/server');
 const tailwindConfig = require('../tailwind.config');
 const { tossr } = require('tossr');
 
-const sheet = virtualSheet();
+const sheet = asyncVirtualSheet();
 setup({ ...tailwindConfig, sheet });
 
 module.exports = async function twindSsr(template, script, url, options) {
