@@ -1,11 +1,17 @@
-const fs = require('fs')
-const { tossr } = require('tossr')
+const fs = require('fs');
+const twindSsr = require('../twind-ssr');
 
-const script = fs.readFileSync(require.resolve('../../dist/build/bundle.js'), 'utf8')
-const template = fs.readFileSync(require.resolve('../../dist/__app.html'), 'utf8')
+const script = fs.readFileSync(
+  require.resolve('../../dist/build/bundle.js'),
+  'utf8'
+);
+const template = fs.readFileSync(
+  require.resolve('../../dist/__app.html'),
+  'utf8'
+);
 
 module.exports = async (req, res) => {
-    const html = await tossr(template, script, req.url, {})
-    res.send(html + '\n<!--ssr rendered-->')
-}
-
+  res.send(
+    (await twindSsr(template, script, req.url)) + '\n<!--ssr rendered-->'
+  );
+};
