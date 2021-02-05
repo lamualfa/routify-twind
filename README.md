@@ -29,3 +29,4 @@ See [routify-twind.netlify.app](https://routify-twind.netlify.app/).
 
 - [routify-tailwind](https://github.com/lamualfa/routify-tailwind) - Use Tailwind CSS in Routify.
 - [routify-ts](https://github.com/lamualfa/routify-ts) - Use Typescript in Routify Project.
+- [routify-carbon](https://github.com/lamualfa/routify-carbon) - Use IBM Carbon Framework in Routify.
