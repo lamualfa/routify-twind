@@ -14,8 +14,8 @@ yarn && yarn dev
 
 ## Environment
 
-- Routify - `v2.5.1-next-major`
-- Twind - `v0.9.1`
+- Routify - `2.8.5`
+- Twind - `0.14.6`
 
 <hr>
 
