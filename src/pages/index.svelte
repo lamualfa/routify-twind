@@ -1,4 +1,5 @@
 <script>
+<<<<<<< HEAD
     import { tw } from "twind";
 </script>
 
@@ -15,3 +16,12 @@
         for further information.
     </p>
 </div>
+=======
+    import RoutifyIntro from './example/_components/RoutifyIntro.svelte'
+    import { metatags } from '@roxi/routify'
+    metatags.title = 'My Routify app'
+    metatags.description = 'Description coming soon...'
+</script>
+
+<RoutifyIntro />
+>>>>>>> 6dbdc96a68c338533ad96802c64d64d47fa990b0
