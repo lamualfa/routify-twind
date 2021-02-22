@@ -21,7 +21,7 @@ yarn && yarn dev
 
 ## Demo
 
-See [routify-twind.netlify.app](https://routify-twind.netlify.app/).
+See [routify-twind.vercel.app](https://routify-twind.vercel.app/).
 
 <hr>
 
