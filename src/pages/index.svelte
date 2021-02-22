@@ -2,7 +2,7 @@
     import { tw } from "twind";
 </script>
 
-<div class={tw`p-4 m-4 border(& purple-600) rounded bg-gray-100`}>
+<div class={tw`p-4 m-4 border(& purple-600) rounded bg-purple-50`}>
     <h2
         class={tw`text(3xl primary) font-medium cursor-pointer hover:(underline)`}>
         Routify + Twind (Tailwind CSS in JS version) template
